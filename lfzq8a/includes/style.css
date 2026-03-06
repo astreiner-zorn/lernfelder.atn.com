@@ -1,0 +1,655 @@
+
+
+/* General */
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #e67e22;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* volle Höhe des Viewports */
+}
+
+html, body {
+    margin: 0;
+}
+
+/* Hauptinhalt füllt den freien Platz zwischen Header und Footer */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionHeader {
+    padding-bottom: 5px;
+    border-bottom: 1px solid brown;
+    margin: 25px 0;
+}
+
+.content-content, .footer {
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1200px;
+}
+
+.content-content {
+    flex: 1;
+}
+
+.content-content img {
+    width: 330px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.section:not(:last-child) {
+    margin: 20px 0; 
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.section p {
+    margin: 0 !important;
+}
+
+.code-section {
+    padding: 20px 0 0 10px
+}
+
+.float-left {
+    float: left;
+    margin-left: 5px;
+}
+
+.float-right {
+    float: right;
+    margin-right: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.col-md-3 {
+    flex: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.col-md-4 { 
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.col-md-3:first-child,
+.col-md-4:first-child {
+    padding-left: 0 !important;
+}
+
+.col-md-3:last-child,
+.col-md-4:last-child {
+    padding-right: 0 !important;
+}
+
+.col-md-6 {
+    width: 49%;
+    height: auto;
+}
+
+.col-md-6:first-child {
+    margin: 0 20px 0 0;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt, dd {
+    width: 50%;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+dt {
+    text-align: left;
+}
+
+dd {
+    font-weight: 700;
+    text-align: right;
+}
+
+span.strong {
+    font-weight: 700 !important;
+    color: #e67e22;
+}
+
+/* Tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th:not(table.speisenkarte-tabelle-v2 th) {
+    padding-bottom: 20px;
+}
+table td {
+    padding-bottom: 10px;
+}
+
+/* Global Cards */
+.global-card {
+    border: 1px solid brown;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.global-card img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 8px 8px 0 0 !important;
+    height: 250px;
+}
+
+.global-card-header {
+    text-align: center;
+    background-image: url("images/body.png");
+    background-color: bisque;
+    border-bottom: 1px solid #e67e22;
+    font-size: 15px;
+    color: #e67e22;
+    margin: 0;
+    padding: 0;
+}
+
+.global-card-header h4 {
+    padding: 10px;
+    margin: 0;
+}
+
+.global-card-description {
+    margin: 30px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.global-card-footer {
+    background-image: url("images/body.png");
+    background-color: #fcfcfc;
+    padding: 10px 5px 5px 5px;
+    display: block;
+    border-top: 1px solid #e67e22;
+    border-radius: 0 0 8px 8px !important;
+}
+
+.global-card-footer ul {
+    display: inline !important;
+    list-style-type: none;
+    margin: 0 0 5px 0;
+    justify-content: flex-end;
+    font-size: 11px;
+}
+
+.global-card-footer li {
+    margin-right: 10px;
+}
+
+.global-card-footer li:last-child::after {
+    display: none;
+}
+
+/* Header */
+.header {
+    padding: 0 20px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1200px;
+    text-align: center;
+    height: 300px;
+}
+
+.header-picture {
+    padding: 0 20px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1200px;
+    text-align: center;
+    margin: 0;
+}
+
+.header-picture img {
+    width: 640px;
+    height: 343px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contentHeader {
+    color: brown;
+    text-align: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHeader::before,
+.contentHeader::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #e67e22;
+    margin: 0 10px;
+}
+
+/* Navigation */
+.navigation {
+    border-top: 1px solid #e67e22;
+    border-bottom: 1px solid #e67e22;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none !important;
+    justify-content: center;
+}
+
+.navigation li::after {
+    content: '\2022';
+    margin: 0 10px;
+}
+
+.navigation li:last-child::after {
+    display: none;
+}
+
+/* OSI-Modell */
+ol.osi-ol {
+    padding-left: 20px !important;
+}
+
+.osi-ol li {
+    margin: 20px 0;
+}
+
+.osi-ol li::marker {
+    font-weight: bold;
+}
+
+.osi-schichtnr::before {
+    content: 'Schicht #';
+}
+
+.osi-schichtnr {
+    font-weight: 700;
+    color: brown;
+}
+
+/* Speisekarte v1 */
+.speisenkarten-tabelle td {
+    padding: 20px;
+    border: 1px solid #e67e22;
+}
+
+.speisenkarten-tabelle td:not(.speisekarte-bild) {
+    text-align: center;
+}
+
+.speisekarte-einheit {
+    font-weight: 600;
+}
+
+.speisekarte-inhalt table {
+    margin-top: 20px;
+}
+
+.speisenkarten-liste {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.speisenkarten-liste li {
+    margin: 5px 0;
+}
+
+.speisekarte-eintrag {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speisekarte-bild img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section-speisekarte {
+    margin-top: 20px;
+}
+
+table.speisenkarte-tabelle-v2 th {
+    padding-bottom: 0 !important;
+}
+
+/* Tierheim */
+.tierheim-row {
+    margin-top: 20px;
+}
+
+/* Formular */
+form {
+    margin: 20px 0;
+    border-collapse: collapse;
+    display: grid !important;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: grid;
+}
+
+select, input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    margin: 10px 0;
+    width: 98%;
+}
+
+select {
+    width: 100% !important;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Code-Tabelle */
+table.code-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fafafa !important;
+    margin-top: 20px;
+}
+
+table.code-table th, table.code-table td {
+    padding: 20px;
+    text-align: left;
+}
+
+table.code-table th {
+    background-color: #3498db;
+    color: #fff !important;
+    text-align: left;
+    padding: 20px;
+}
+
+table.code-table th:first-child {
+    border-top-left-radius: 12px;
+}
+
+table.code-table th:last-child {
+    border-top-right-radius: 12px;
+}
+
+table.code-table, tr {
+    border: 0 !important;
+}
+
+table.code-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table.code-table td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+table.code-table td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+.invisible {
+    visibility: hidden;
+} 
+
+/* Navbar container */
+.navbar{
+  display:flex;
+  align-items:center;
+  gap:1.5rem;
+}
+
+/* Links inside the navbar */
+.navbar a{
+  color:brown;
+  font-weight:bold;
+  text-decoration:none;
+  padding:14px 0; /* vertical rhythm */
+}
+
+/* The dropdown container */
+.dropdown{
+  position:relative;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn{
+  display:inline-block;
+  padding:14px 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:180px;
+  background:#fff;
+  border:1px solid #e67e22;
+  box-shadow:0 2px 10px rgba(0,0,0,.08);
+  z-index:10;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+  display:block;
+  padding:10px 12px;
+  text-align:left;
+}
+
+/* Hover state for dropdown links */
+.dropdown-content a:hover{
+  background:#f4f4f4;
+}
+
+/* Show the dropdown menu on hover and keyboard focus */
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content{
+  display:block;
+}
+
+.liItem {
+    margin: 10px 0;
+}
+
+.chef-flex { 
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.chef-img  {
+    max-width: 100%;
+    width: 280px;
+    height: auto;
+    display: block;
+    margin-top: 0 !important;
+}
+
+.chef-text {
+    flex: 1 1 320px;
+}
+
+.llWrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+  
+.llTable {
+  border-collapse: collapse;
+  min-width: 720px;
+}
+  
+.llTable thead th {
+  background: #b33;
+  color: #fff;
+  text-align: left;
+  padding: 12px 14px;
+  font-weight: 700;
+}
+  
+.llTable td {
+  padding: 10px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+}
+
+.llTable tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+  
+.llTable tbody tr:hover {
+  background: #f4f4f4;
+}
+  
+.tdDate {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.tdPos {
+  font-weight: 600;
+}
+  
+.tdBes {
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Button */
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: brown;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="reset"]:hover {
+    background-color: #3498db;
+}
+
+.button, button[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+    background-color: #e67e22;
+}
+
+@media (max-width: 700px) {
+    .chef-flex {
+        flex-direction: column;
+    }
+
+    .chef-img  {
+        width: 100%;
+        max-width: 480px;
+    }
+    
+    .llTable {
+    min-width: 0;
+    border: 0;
+  }
+  
+  .llTable thead {
+    display: none;
+  }
+  
+  .llTable tr {
+    display: block;
+    border-bottom: 2px solid #eee;
+    margin-bottom: .75rem;
+  }
+    
+  .llTable td {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: .5rem;
+    border: 0;
+    padding: .5rem .75rem;
+  }
+    
+  .llTable td::before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: #555;
+  }
+}

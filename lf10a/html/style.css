@@ -1,0 +1,318 @@
+/* General */
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #e67e22;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.sectionHeader {
+    padding-bottom: 5px;
+    border-bottom: 1px solid brown;
+    margin: 25px 0;
+}
+
+.content-content {
+    padding: 0 20px 20px 20px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1200px;
+    margin-top: 10px;
+}
+
+.content-content img {
+    width: 330px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.section:not(:last-child) {
+    margin: 20px 0; 
+}
+
+.section p {
+    margin: 0 !important;
+}
+
+.float-left {
+    float: left;
+    margin-left: 5px;
+}
+
+.float-right {
+    float: right;
+    margin-right: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 {
+    flex: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.col-md-4 { 
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.col-md-3:first-child,
+.col-md-4:first-child {
+    padding-left: 0 !important;
+}
+
+.col-md-3:last-child,
+.col-md-4:last-child {
+    padding-right: 0 !important;
+}
+
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt, dd {
+    width: 50%;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+dt {
+    text-align: left;
+}
+
+dd {
+    font-weight: 700;
+    text-align: right;
+}
+
+span.strong {
+    font-weight: 700 !important;
+    color: #e67e22;
+}
+
+/* Tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th:not(table.speisenkarte-tabelle-v2 th) {
+    padding-bottom: 20px;
+}
+table td {
+    padding-bottom: 10px;
+}
+
+/* Global Cards */
+.global-card {
+    border: 1px solid brown;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.global-card img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 8px 8px 0 0 !important;
+    height: 250px;
+}
+
+.global-card-header {
+    text-align: center;
+    background-image: url("images/body.png");
+    background-color: bisque;
+    border-bottom: 1px solid #e67e22;
+    font-size: 15px;
+    font-style: italic;
+    color: #e67e22;
+    margin: 0;
+    padding: 0;
+}
+
+.global-card-header h4 {
+    padding: 10px;
+    margin: 0;
+}
+
+.global-card-description {
+    margin: 30px 0;
+    padding: 0 10px;
+}
+
+.global-card-footer {
+    background-image: url("images/body.png");
+    background-color: #fcfcfc;
+    padding: 10px 5px 5px 5px;
+    display: block;
+    border-top: 1px solid #e67e22;
+    border-radius: 0 0 8px 8px !important;
+}
+
+.global-card-footer ul {
+    display: inline !important;
+    list-style-type: none;
+    margin: 0 0 5px 0;
+    justify-content: flex-end;
+    font-size: 11px;
+}
+
+.global-card-footer li {
+    margin-right: 10px;
+}
+
+.global-card-footer li:last-child::after {
+    display: none;
+}
+
+/* Header */
+.header {
+    padding: 0 20px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1200px;
+    text-align: center;
+}
+
+.header-picture img {
+    width: 640px;
+    height: 343px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contentHeader {
+    color: brown;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHeader::before,
+.contentHeader::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #e67e22;
+    margin: 0 10px;
+}
+
+/* Navigation */
+.navigation {
+    border-top: 1px solid #e67e22;
+    border-bottom: 1px solid #e67e22;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.navigation a, .navigation a:hover{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none !important;
+    justify-content: center;
+}
+
+.navigation li::after {
+    content: '\2022';
+    margin: 0 10px;
+}
+
+.navigation li:last-child::after {
+    display: none;
+}
+
+/* OSI-Modell */
+ol.osi-ol {
+    padding-left: 20px !important;
+}
+
+.osi-ol li {
+    margin: 20px 0;
+}
+
+.osi-ol li::marker {
+    font-weight: bold;
+}
+
+.osi-schichtnr::before {
+    content: 'Schicht #';
+}
+
+.osi-schichtnr {
+    font-weight: 700;
+    color: brown;
+}
+
+/* Speisekarte v1 */
+.speisenkarten-tabelle td {
+    padding: 20px;
+    border: 1px solid #e67e22;
+}
+
+.speisenkarten-tabelle td:not(.speisekarte-bild) {
+    text-align: center;
+}
+
+.speisekarte-einheit {
+    font-weight: 600;
+}
+
+.speisenkarten-liste {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.speisenkarten-liste li {
+    margin: 5px 0;
+}
+
+.speisekarte-eintrag {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speisekarte-bild img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section-speisekarte {
+    margin-top: 20px;
+}
+
+/* Speisekarte v2 */
+table.speisenkarte-tabelle-v2 th {
+    padding-bottom: 0 !important;
+}
+
+/* Tierheim */
+.tierheim-row {
+    margin-top: 20px;
+}

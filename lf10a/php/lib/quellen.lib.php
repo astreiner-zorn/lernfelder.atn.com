@@ -1,0 +1,120 @@
+<div class="header-picture">
+    <img src="images/learn.png" alt="Quellen">
+</div>
+
+<div class="content-content">
+    <h1 class="contentHeader">Quellen</h1>
+    <div class="section">
+        <h2 class="sectionHeader">Einzelene Seiten</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Goethe / Schiller</td> 
+                    <td><a href="https://pixabay.com/photos/weimar-goethe-schiller-monument-2417498/" target="_blank">https://pixabay.com/photos/weimar-goethe-schiller-monument-2417498/</a></td>
+                </tr>
+                <tr>
+                    <td>OSI-Modell</td> 
+                    <td><a href="https://pixabay.com/de/vectors/code-netz-tab-skript-programm-6622549/" target="_blank">https://pixabay.com/de/vectors/code-netz-tab-skript-programm-6622549/</a></td>
+                </tr>
+                <tr>
+                    <td>Lernfelder</td> 
+                    <td><a href="https://pixabay.com/vectors/books-bookshelf-educate-library-8660361/" target="_blank">https://pixabay.com/vectors/books-bookshelf-educate-library-8660361/</a></td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td><a href="https://de.wikipedia.org/wiki/Datei:PHP-logo.svg" target="_blank">https://de.wikipedia.org/wiki/Datei:PHP-logo.svg</a>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td><a href="https://www.ovhcloud.com/de/learn/what-is-mysql/ target="_blank">https://www.ovhcloud.com/de/learn/what-is-mysql/</a>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="section">
+        <h2 class="sectionHeader">Kuchenliste</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Header-Bild</td> 
+                    <td><a href="https://pixabay.com/vectors/cake-birthday-chocolate-cartoon-307466/" target="_blank">https://pixabay.com/vectors/cake-birthday-chocolate-cartoon-307466/</a></td>
+                </tr>
+                <tr>
+                    <td>Zwetschenkuchen</td> 
+                    <td><a href="https://pixabay.com/photos/cakes-plums-plum-cake-dachi-1578684/" target="_blank">https://pixabay.com/photos/cakes-plums-plum-cake-dachi-1578684/</a></td>
+                </tr>
+                <tr>
+                    <td>Schokoladenkuchen</td> 
+                    <td><a href="https://pixabay.com/photos/swede-cakes-chocolate-cake-cake-2123191/" target="_blank">https://pixabay.com/photos/swede-cakes-chocolate-cake-cake-2123191/</a></td>
+                </tr>
+                <tr>
+                    <td>Schwarzwälder-Kirsch Kuchen</td> 
+                    <td><a href="https://pixabay.com/photos/cake-cream-cake-chocolate-cake-4516387/" target="_blank">https://pixabay.com/photos/cake-cream-cake-chocolate-cake-4516387/</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="sectionHeader">Speisekarte</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Header-Bild</td> 
+                    <td><a href="https://pixabay.com/vectors/chef-character-cook-gourmet-1417239/" target="_blank">https://pixabay.com/vectors/chef-character-cook-gourmet-1417239/</a></td>
+                </tr>
+                <tr>
+                    <td>Pommes</td> 
+                    <td><a href="https://pixabay.com/photos/potato-fries-food-dish-fries-fried-6323202/" target="_blank">https://pixabay.com/photos/potato-fries-food-dish-fries-fried-6323202/</a></td>
+                </tr>
+                <tr>
+                    <td>Currywurst</td> 
+                    <td><a href="https://pixabay.com/photos/currywurst-snack-break-porcelain-142972/" target="_blank">https://pixabay.com/photos/currywurst-snack-break-porcelain-142972/</a></td>
+                </tr>
+                <tr>
+                    <td>Schnitzel</td> 
+                    <td><a href="https://pixabay.com/photos/schnitzel-pig-food-meal-flesh-1732024/" target="_blank">https://pixabay.com/photos/schnitzel-pig-food-meal-flesh-1732024/</a></td>
+                </tr>
+                <tr>
+                    <td>Burger</td>
+                    <td><a href="https://pixabay.com/photos/burger-food-bread-sandwich-3141127/" target="_blank">https://pixabay.com/photos/burger-food-bread-sandwich-3141127/</a></td>
+                </tr>
+                <tr>
+                    <td>Chicken-Nuggets</td>
+                    <td><a href="https://pixabay.com/photos/chicken-nuggets-fries-dip-sauce-246180/" target="_blank">https://pixabay.com/photos/chicken-nuggets-fries-dip-sauce-246180/</a></td>
+                </tr>
+                <tr>
+                    <td>Chicken Wings</td>
+                    <td><a href="https://pixabay.com/photos/chicken-wings-chicken-wing-food-4000442/" target="_blank">https://pixabay.com/photos/chicken-wings-chicken-wing-food-4000442/</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="section">
+        <h2 class="sectionHeader">Tierheim</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Header-Bild</td> 
+                    <td><a href="https://pixabay.com/vectors/lion-lion-with-cub-cub-young-4554779/" target="_blank">https://pixabay.com/vectors/lion-lion-with-cub-cub-young-4554779/</a></td>
+                </tr>
+                <tr>
+                    <td>Katze</td> 
+                    <td><a href="https://pixabay.com/photos/cat-cat-eyes-cat-face-whiskers-6944230/" target="_blank">https://pixabay.com/photos/cat-cat-eyes-cat-face-whiskers-6944230/</a></td>
+                </tr>
+                <tr>
+                    <td>Hund</td> 
+                    <td><a href="https://pixabay.com/photos/labrador-dog-domestic-animal-animal-4246322/" target="_blank">https://pixabay.com/photos/labrador-dog-domestic-animal-animal-4246322//</a></td>
+                </tr>
+                <tr>
+                    <td>Kaninchen</td> 
+                    <td><a href="https://pixabay.com/photos/animal-bunny-close-up-cute-pet-1846462/" target="_blank">https://pixabay.com/photos/animal-bunny-close-up-cute-pet-1846462/</a></td>
+                </tr>
+                <tr>
+                    <td>Hamster</td>
+                    <td><a href="https://pixabay.com/photos/golden-hamster-hamster-animal-nuts-943373/" target="_blank">https://pixabay.com/photos/golden-hamster-hamster-animal-nuts-943373/</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

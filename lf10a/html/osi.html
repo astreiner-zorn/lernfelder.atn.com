@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Das OSI-Modell</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="navigation">
+                <ul>
+                    <li><a href="erlkoenig.html">Erlkönig</a></li>
+                    <li><a href="osi.html">OSI-Modell</a></li>
+                    <li><a href="lernfelder.html">Lernfelder</a></li>
+                    <li><a href="kuchenliste.html">Kuchenliste</a></li>
+                    <li><a href="speisekarte.html">Speisekarte</a>
+                    <li><a href="tierheim.html">Tierheim</a>
+                    <li><a href="quellen.html" target="_blank" style="color: darkgreen;">Quellen (Bilder)</a></li>
+                </ul>
+            </div>
+            <div class="header-picture">
+                <img src="images/cover.png" alt="Cover">
+            </div>
+            <h1 class="contentHeader">Lernfeld 10a</h1>
+        </div>
+        <div class="content-content">
+            <h2 class="sectionHeader">OSI-Modell2</h2>
+            <div class="section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nummer</th>
+                            <th>Schicht</th>
+                            <th>Protokoll</th>
+                            <th>Aufgabe</th>
+                            <th>Kopplungselement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="osi-schichtnr">1</td>
+                            <td>Bitübertragungsschicht</td>
+                            <td>IEEE 802.3, IEEE 802.11</td>
+                            <td>Bitübertragung</td>
+                            <td>Netzwerkkabel, Hub</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">2</td>
+                            <td>Sicherungsschicht</td>
+                            <td>MAC, LLC</td>
+                            <td>Bitübertragung</td>
+                            <td>Switch</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">3</td>
+                            <td>Vermittlungsschicht</td>
+                            <td>IP, ICMP, ARP</td>
+                            <td>Adressierung</td>
+                            <td>Router</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">4</td>
+                            <td>Transportschicht</td>
+                            <td>TCP, UDP</td>
+                            <td>Ende-zu-Ende-Verbindung</td>
+                            <td>Router</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">5</td>
+                            <td>Sitzungsschicht</td>
+                            <td>RPC, SQL, NetBIOS</td>
+                            <td>Dialogsteuerung</td>
+                            <td>Computer, Server</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">6</td>
+                            <td>Darstellungsschicht</td>
+                            <td>ASCII, JPEG, MPEG</td>
+                            <td>Datenformatierung</td>
+                            <td>Computer, Server</td>
+                        </tr>
+                        <tr>
+                            <td class="osi-schichtnr">7</td>
+                            <td>Anwendungsschicht</td>
+                            <td>HTTP, SMTP, FTP</td>
+                            <td>Dialogsteuerung</td>
+                            <td>Computer, Server</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

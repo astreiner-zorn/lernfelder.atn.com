@@ -1,0 +1,24 @@
+html, body {
+    height: 100%; /* Stellt sicher, dass die Seite die volle Höhe einnimmt */
+}
+body {
+    display: flex;
+    flex-direction: column; /* Ermöglicht flexibles Layout */
+    background-image:url("../lfvt4v2/media/bg.png");
+}
+main {
+    flex: 1; /* Nimmt den verfügbaren Platz ein */
+}
+footer {
+    margin-top: auto; /* Schiebt den Footer nach unten */
+    color: #fafafa;
+}
+
+.hljs {
+    background-color: khaki !important;
+    border-radius: 5px;
+}
+
+.code, .hljs, pre {
+    padding: 0 !important;
+}

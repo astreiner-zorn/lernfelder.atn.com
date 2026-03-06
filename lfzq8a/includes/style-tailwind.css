@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Alle relevanten Dateien in/unterhalb von /public scannen,
+   plus optional eine Ebene drüber (Projektroot), falls dort mal PHP/HTML liegen. */
+@source "../*.{html,php,js,ts,jsx,tsx,vue}"
+        "../**/*.{html,php,js,ts,jsx,tsx,vue}"
+        "../../*.{html,php,js,ts,jsx,tsx,vue}"
+        "../../**/*.{html,php,js,ts,jsx,tsx,vue}";
+
+@theme {
+  --color-brand: #3b82f6;
+}

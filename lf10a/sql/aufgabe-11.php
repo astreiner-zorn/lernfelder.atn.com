@@ -1,0 +1,2 @@
+<h1>Warum kann ich nicht einfach das Buch mit dem Titel „Carrie“ aus der Datenbank löschen?</h2>
+<p>Da das Buch mit dem Autor „Stephen King“ verknüpft ist, muss zuerst der Autor gelöscht werden. (Foreign Key)</p>
